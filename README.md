@@ -7,7 +7,8 @@ I want to learn good code-writing practices and I like challenges.
 ### Subtask 4
 Result: 10/14 points 
 # Task 2: Selectors
-▶️ Sign in 
+▶️ Sign_in 
+
 💡//*[@id="__next"]/form/div/div[2]/button/span[1]
 
 💡/html/body/div/form/div/div[2]/button/span[1]
@@ -15,12 +16,15 @@ Result: 10/14 points
 💡#__next > form > div > div.MuiCardActions-root > button > span.MuiButton-label
 
 
-▶️ Login Field
+▶️ Login_Field
+
 💡//*[@id="login"]
 
-▶️ Password Field
+▶️ Password_Field
+
 💡//*[@id="password"]
 
-▶️ Multi-select language menu
+▶️ Multi-select_language_menu
+
 💡//*[@id="__next"]/form/div/div[2]/div/div
 
