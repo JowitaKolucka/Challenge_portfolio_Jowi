@@ -11,10 +11,13 @@ Result: 10/14 points
 💡//*[@id="__next"]/form/div/div[2]/button/span[1]
 💡/html/body/div/form/div/div[2]/button/span[1]
 💡#__next > form > div > div.MuiCardActions-root > button > span.MuiButton-label
+
 ▶️ Login Field
 💡//*[@id="login"]
+
 ▶️ Password Field
 💡//*[@id="password"]
+
 ▶️ Multi-select language menu
 💡//*[@id="__next"]/form/div/div[2]/div/div
 
