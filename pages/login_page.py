@@ -10,6 +10,8 @@ class LoginPage(BasePage):
     expected_title = 'Scouts panel - sign in'
     header_of_box = 'Scouts Panel'
 
+
+
     def type_in_email(self, email):
         self.field_send_keys(self.login_field_xpath, email)
     def type_in_password(self, password):
