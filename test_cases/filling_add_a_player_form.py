@@ -8,9 +8,7 @@ from pages.dashboard import Dashboard
 from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
-
-
-class TestAddPlayer(unittest.TestCase):
+class TestFillingAddPlayerForm(unittest.TestCase):
 
     @classmethod
     def setUp(self):
@@ -31,8 +29,15 @@ class TestAddPlayer(unittest.TestCase):
         time.sleep(5)
         add_player = AddAPlayer(self.driver)
         time.sleep(6)
-        add_player.check_title_of_page()
-
+        add_player.type_in_email("jacek@gmail.com")
+        add_player.type_in_name("Jacek")
+        add_player.type_in_surname("Kopacz")
+        add_player.type_in_phone_field("111222333")
+        add_player.type_in_age_field("28")
+        add_player.type_in_height_field("178")
+        add_player.type_in_weight_field("70")
+        add_player.type_in_main_position_field("Striker")
+        add_player.click_on_the_submit_button()
 
 
     @classmethod
