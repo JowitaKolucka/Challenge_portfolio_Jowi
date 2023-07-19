@@ -28,3 +28,6 @@ Result: 10/14 points
 
 💡//*[@id="__next"]/form/div/div[2]/div/div
 
+# Task 4: Test Cases
+➡️[Test Cases](https://docs.google.com/spreadsheets/d/1_010HCKghoR2BPgXg6K0uOt19N9RvDuSm_q64u4OSI4/edit?usp=sharing)
+
