@@ -35,6 +35,10 @@ class Dashboard(BasePage):
         time.sleep(5)
         assert self.get_page_title(self.add_player_url) == self.add_player_title
 
+    def click_on_the_signout_button(self):
+        time.sleep(5)
+        self.click_on_the_element(self.sign_out_button_xpath)
+
 
 
 
