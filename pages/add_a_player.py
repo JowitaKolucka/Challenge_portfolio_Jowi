@@ -23,7 +23,9 @@ class AddAPlayer(BasePage):
     password_field_xpath = "//*[@id='password']"
     sign_in_button_xpath = "//*[@type='submit']"
     player_title_xpath = "/html/head/title"
+    clear_button_xpath = "//div[3]/button[2]/span[1]"
     wait = WebDriverWait(driver, 10)
+    required_message_xpath = "//p[contains(@class, 'required')]"
 
 
     def check_title_of_page(self):
@@ -57,3 +59,10 @@ class AddAPlayer(BasePage):
 
     def click_on_the_submit_button(self):
         self.click_on_the_element(self.submit_button_xpath)
+
+    def click_on_the_clear_button(self):
+        self.click_on_the_element(self.clear_button_xpath)
+
+    def required_message(self):
+        self.visibility_of_element_located(self.required_message_xpath)
+        assert(self.driver, self.required_message_xpath, "Required")
