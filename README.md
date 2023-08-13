@@ -31,7 +31,7 @@ Result: 10/14 points
 # Task 4: Test Cases
 ➡️[Test Cases](https://docs.google.com/spreadsheets/d/1_010HCKghoR2BPgXg6K0uOt19N9RvDuSm_q64u4OSI4/edit?usp=sharing)
 
-# Task 6: Test reports
-👉[Bug Report](https://docs.google.com/document/d/1cbj3wkrmrh0E9h6wdwpOoRS526BsYubuSoB7mWnjdBQ/edit?usp=sharing)
+# Task 6: Test and Bugs reports
+👉[Test Report](https://docs.google.com/document/d/1cbj3wkrmrh0E9h6wdwpOoRS526BsYubuSoB7mWnjdBQ/edit?usp=sharing)
 
 
