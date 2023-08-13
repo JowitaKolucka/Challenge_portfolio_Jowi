@@ -33,5 +33,6 @@ Result: 10/14 points
 
 # Task 6: Test and Bugs reports
 👉[Test Report](https://docs.google.com/document/d/1cbj3wkrmrh0E9h6wdwpOoRS526BsYubuSoB7mWnjdBQ/edit?usp=sharing)
+👉[Bug report](https://docs.google.com/spreadsheets/d/1pIqrC37xgqdXYDfN-sxL2IopZU4KZdhHvmAtUO6vhX4/edit?usp=sharing)
 
 
