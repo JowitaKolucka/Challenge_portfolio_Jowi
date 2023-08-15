@@ -4,8 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import os
 import time
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support.wait import WebDriverWait
+
 from utils.settings import DEFAULT_LOCATOR_TYPE, DRIVER_PATH, IMPLICITLY_WAIT
 from pages.dashboard import Dashboard
 from pages.login_page import LoginPage
@@ -20,7 +19,7 @@ class TestSignOut(unittest.TestCase):
         os.chmod(DRIVER_PATH, 755)
         self.driver_service = Service(executable_path=DRIVER_PATH)
         self.driver = webdriver.Chrome(service=self.driver_service)
-        self.driver.get('https://scouts-test.futbolkolektyw.pl/en')
+        self.driver.get('https://dareit.futbolkolektyw.pl/en/')
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 

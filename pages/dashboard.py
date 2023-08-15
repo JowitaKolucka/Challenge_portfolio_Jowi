@@ -17,8 +17,8 @@ class Dashboard(BasePage):
     last_updated_report = "//div[3]/div/div/a[5]/button/span[1]"
     last_created_match_xpath="//div[3]/div/div/a[3]/button/span[1]"
     expected_title = "Scouts panel"
-    dashboard_url = "https://scouts-test.futbolkolektyw.pl/en"
-    add_player_url = "https://scouts-test.futbolkolektyw.pl/en/players/add"
+    dashboard_url = "https://dareit.futbolkolektyw.pl/en/"
+    add_player_url = "https://dareit.futbolkolektyw.pl/en/players/add"
     add_player_title = "Add player"
     futbol_kolektyw_button_xpath = '//*[@title = "Logo Scouts Panel"]'
     wait = WebDriverWait(driver, 10)

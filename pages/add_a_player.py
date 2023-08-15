@@ -7,7 +7,7 @@ from pages.base_page import BasePage
 
 
 class AddAPlayer(BasePage):
-    add_player_xpath = "//*[text()='Add player]"
+    add_player_xpath = "//*[text()='Add player']"
     email_field_xpath = "//input[@name = 'email']"
     name_field_xpath = "//input[@name = 'name']"
     surname_field_xpath = "//input[@name = 'surname']"
@@ -18,7 +18,7 @@ class AddAPlayer(BasePage):
     main_position_field_xpath = "//input[@name = 'mainPosition']"
     submit_button_xpath = "//button[@type='submit']"
     add_player_title = "Add player"
-    player_form_url = "https://scouts-test.futbolkolektyw.pl/en/players/add"
+    player_form_url = "https://dareit.futbolkolektyw.pl/en/players/add"
     login_field_xpath = "//*[@id='login']"
     password_field_xpath = "//*[@id='password']"
     sign_in_button_xpath = "//*[@type='submit']"
